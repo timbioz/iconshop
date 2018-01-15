@@ -1,0 +1,172 @@
+/*
+ Theme Name:   Icon Shop
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       Timbioz
+ Author URI:   http://example.com
+ Template:     storefront
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700|Vollkorn:700:900&subset=cyrillic');
+/* @import url("/wp-content/themes/storefront-child/css/tim.css"); */
+
+
+.site-header{
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #F5F5F5;
+    border-bottom: 2px solid #663300;
+}
+
+.site-header button.menu-toggle {
+    margin-top: 0.75rem;
+}
+
+.woocommerce-active .site-header .site-search{
+    width: auto;
+    float: none;
+    margin-top: 1.25rem;
+}
+
+.site-search .widget_product_search form input[type="search"], .site-search .widget_product_search form input[type="text"]{
+    border: 1px solid #663300;
+    border-radius: 10px;
+}
+
+.site-header .site-branding{
+    width: auto;
+    margin: 0;
+    padding: 0.75rem 0;
+}
+.site-header .site-branding a{
+    font-size: 1.875rem;
+}
+
+.site-header .site-branding a{
+    font-family: 'Vollkorn', serif;
+    font-weight: bold;
+    color: #663300;
+}
+.site-header .site-branding a:hover {
+    text-decoration: none;
+}
+
+.site-branding .site-description{
+    font-family: 'PT Serif', serif;
+    font-size: 0.875rem;
+}
+
+.woocommerce-active .site-header .site-header-cart{
+    width: auto;
+    float: none;
+}
+
+.site-header-cart .cart-contents{
+    padding: 0.75rem 0;
+}
+
+.home.blog .site-header, .home.page:not(.page-template-template-homepage) .site-header, .home.post-type-archive-product .site-header{
+    margin-bottom: 0;
+}
+
+.main-navigation ul.menu > li > a, .main-navigation ul.nav-menu > li > a{
+    font-family: 'PT Serif', serif;
+    font-weight: 600;
+    color: #663300;
+    padding: 0.75rem 1rem;
+}
+.main-navigation ul.menu > li > a:hover, .main-navigation ul.nav-menu > li > a:hover{
+    color: #663300;
+}
+
+.main-navigation ul.menu > li.current-menu-item > a,
+.main-navigation ul.nav-menu > li.current-menu-item > a,
+.main-navigation ul.menu > li.current_page_parent > a,
+.main-navigation ul.nav-menu > li.current-page-parent > a{
+    color: #663300;
+    border-bottom: 7px solid #663300;
+}
+
+.top-menu-accent{
+    height: 4px;
+    background-color: #663300;
+}
+
+.top-menu-stripe{
+    background-color: #ab987a;
+}
+
+#tim-top-menu ul li a{
+    color: #43454b;
+    font-size: 0.875rem;
+    font-family: 'PT Serif', serif;
+    color: #663300;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+#tim-top-menu ul.top-menu {
+    margin-left: 0;
+}
+
+#tim-top-menu ul li a:hover{
+    color: #000000;
+}
+
+#tim-top-menu .phones {
+    font-size: 1.125rem;
+    color: #333333;
+}
+
+#tim-top-menu .phones i.fa {
+    margin-right: 1rem;
+    font-size: 0.875rem;
+}
+
+#tim-top-menu .phones span.phone-number-1 {
+    margin-right: 1rem;
+}
+
+@media (min-width: 768px) {
+    .woocommerce-active .site-header .main-navigation {
+        width: auto;
+        float: none;
+        margin: 0;
+    }
+
+    .main-navigation ul.menu > li > a, .main-navigation ul.nav-menu > li > a {
+        padding: 0.75rem 0.5rem;
+    }
+
+    .main-navigation ul, .secondary-navigation ul {
+        padding-left: 1rem;
+    }
+
+}
+
+@media (max-width: 991.99px) {
+    #tim-top-menu .phones {
+        font-size: 1rem;
+    }
+
+    #tim-top-menu .phones i.fa {
+        margin-right: 0.5rem;
+    }
+
+    #tim-top-menu .phones span.phone-number-1 {
+        margin-right: 0.5rem;
+    }
+
+    #tim-top-menu ul li a{
+        padding: 0.25rem 0.5rem;
+    }
+
+    .site-header-cart span.count {
+        display: none;
+    }
+}
