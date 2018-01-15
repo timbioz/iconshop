@@ -1,5 +1,9 @@
 @import "colors";
 
+div {
+  display: flex;
+}
+
 .testblock {
   height: 10rem;
   background-color: gray;

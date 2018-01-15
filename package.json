@@ -4,10 +4,12 @@
   "main": "index.js",
   "author": "TIMBIOZ-PC\\Timbioz <volkovtim@gmail.com>",
   "license": "MIT",
+  "browserslist": ["defaults", "not ie < 11"],
   "dependencies": {
     "bootstrap": "^4.0.0-beta.3",
     "jquery": "^3.2.1",
-    "popper.js": "^1.12.9"
+    "popper.js": "^1.12.9",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "webpack": "^3.10.0",
@@ -15,6 +17,11 @@
     "css-loader": "^0.28.8",
     "sass-loader": "^6.0.6",
     "node-sass": "^4.7.2",
+    "postcss": "^6.0.16",
+    "postcss-load-config": "^1.2.0",
+    "postcss-loader": "^2.0.10",
+    "postcss-scss": "^1.0.3",
+    "autoprefixer": "^7.2.5",
     "clean-webpack-plugin": "^0.1.17",
     "extract-text-webpack-plugin": "^3.0.2"
   }

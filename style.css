@@ -12,6 +12,12 @@
  Text Domain:  twenty-fifteen-child
 */
 
+
+p {
+    display:flex
+}
+
+
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700|Vollkorn:700:900&subset=cyrillic');
 /* @import url("/wp-content/themes/storefront-child/css/tim.css"); */
 
